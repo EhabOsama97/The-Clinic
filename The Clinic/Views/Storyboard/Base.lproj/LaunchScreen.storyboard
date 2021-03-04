@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sma3a" translatesAutoresizingMaskIntoConstraints="NO" id="ace-30-19W">
+                                <rect key="frame" x="140.5" y="381" width="133" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134" id="X5T-rK-fnw"/>
+                                    <constraint firstAttribute="width" constant="133" id="ngi-Tp-Qpq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Clinic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip5-gV-wsh">
+                                <rect key="frame" x="137.5" y="523" width="139" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="clinic"/>
+                        <constraints>
+                            <constraint firstItem="ip5-gV-wsh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Ym-kU-xjI"/>
+                            <constraint firstItem="ace-30-19W" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MkY-Ku-X2E"/>
+                            <constraint firstItem="ip5-gV-wsh" firstAttribute="top" secondItem="ace-30-19W" secondAttribute="bottom" constant="8" id="UXT-id-TND"/>
+                            <constraint firstItem="ace-30-19W" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="m88-2a-kiz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sma3a" width="714" height="980"/>
+        <namedColor name="clinic">
+            <color red="0.0" green="0.62400001287460327" blue="0.58399999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
